@@ -1,0 +1,319 @@
+body {
+  margin-top: 0px;
+  overflow: auto;
+  font-family: 'DotGothic16', sans-serif;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  text-align: center;
+}
+
+header {
+  width: 700px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+#profile {
+  display: flex; /* Flexboxを有効にする */
+  flex-direction: row; /* 子要素を横方向に並べる */
+    align-items: flex-start; /* 子要素を上端で揃える（必要に応じて調整） */
+    width: 350px; /* 親要素の幅を調整 */
+    max-width: 800px; /* 親要素の最大幅を調整 */
+    margin: 0 0px 30px 0px; /* 中央揃えと下マージン */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#profile2 {
+  display: flex; /* Flexboxを有効にする */
+  flex-direction: row; /* 子要素を横方向に並べる */
+    align-items: flex-start; /* 子要素を上端で揃える（必要に応じて調整） */
+    width: 350px; /* 親要素の幅を調整 */
+    max-width: 800px; /* 親要素の最大幅を調整 */
+    margin: 0 0px 30px 0px; /* 中央揃えと下マージン */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+
+#profile3 {
+    width: 730px; /* 親要素の幅を調整 */
+    max-width: 1000px; /* 親要素の最大幅を調整 */
+    margin: 0 0px 30px 0px; /* 中央揃えと下マージン */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#profile4 {
+    width: 730px; /* 親要素の幅を調整 */
+    max-width: 1000px; /* 親要素の最大幅を調整 */
+    margin: 0 0px 30px 0px; /* 中央揃えと下マージン */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  text-align: center;
+  width: 700px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*囲み枠*/
+.dq-box {
+  background-color: hsl(0, 0%, 12%);
+  width: 1000px; /*親要素の半分の幅から左右のマージンを引いた値 */
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0;
+  font-family: 'DotGothic16', sans-serif;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.dq-box2 {
+  background-color: hsl(0, 0%, 12%);
+  width: 670px; /*親要素の半分の幅から左右のマージンを引いた値 */
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0;
+  font-family: 'DotGothic16', sans-serif;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.dq-box3 {
+  background-color: hsl(0, 0%, 12%);
+  width: 1000px; /*親要素の半分の幅から左右のマージンを引いた値 */
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 24px;
+  margin: 0;
+  font-family: 'DotGothic16', sans-serif;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.dq-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.dq-boxh4 {
+  width: auto;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.dq-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dq-box li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  text-shadow: 1px 1px 2px #000;
+}
+
+#global_navi {
+    width: 98.4%;
+    clear: both;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#global_navi ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:  #111;
+}
+
+#global_navi ul li {
+    width: 100px;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    font-size: 15px;
+}
+
+#global_navi ul li  a{
+    display: block;
+    list-style: none;
+    text-decoration: #111;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+body {
+  min-height: 100%;
+}
+
+
+#wrapper {
+    width: 700px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+#main {
+  display: flex; /* profile-container と profile3 を縦に並べる */
+  flex-direction: column; /* 要素を縦に並べる */
+  display: flex;
+  width: 730px;
+  float: left;
+  align-items: flex-start; /* 左寄せにする（必要に応じて調整） */
+}
+
+.profile-container {
+  display: flex; /* profile と profile2 を横に並べる */
+  width: 100%; /* #main の幅いっぱいに広げる */
+  justify-content: space-between; /* 左右に配置して隙間を作る（必要に応じて調整） */
+  margin-bottom: 0px; /* profile-container の下に余白を作る */
+}
+
+#profile ul,
+#profile3 ul
+#profile4 ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* ul 要素を Flex コンテナにする */
+  flex-direction: column; /* アイテムを縦に並べる */
+}
+
+#profile3 ul {
+  padding-left: 50px;
+}
+
+
+#profile ul li,
+#profile3 ul li {
+  display: flex; /* li 要素を Flex コンテナにする */
+  align-items: baseline; /* ベースラインで揃える（: の位置を揃えるため） */
+  margin: 5px 0;
+}
+
+#profile4 ul li {
+  display: flex; /* li 要素を Flex コンテナにする */
+  align-items: baseline; /* ベースラインで揃える（: の位置を揃えるため） */
+  margin: 5px 0;
+  text-align: left;
+}
+
+#profile ul li span,
+#profile3 ul li span {
+  width: 80px; /* : を含む項目の幅を固定する（調整が必要な場合あり） */
+  display: inline-block; /* 幅を有効にする */
+  text-align: right; /* : を右寄せにする */
+  margin-right: 15px; /* : と値の間にスペースを作る */
+}
+
+#profile4 ul li span {
+  width: auto; /* : を含む項目の幅を固定する（調整が必要な場合あり） */
+  display: block; /* 幅を有効にする */
+  text-align: left; /* : を右寄せにする */
+  margin-right: 15px; /* : と値の間にスペースを作る */
+  padding-left: 0px;
+}
+
+img  {
+  width: 100px; 
+  height: auto; 
+  margin-left: 70px;
+  align-items: flex-start;
+}
+
+#hobby_img {
+  width: 365px;
+  height: 205px;
+  margin-left: 0px;
+}
+
+#hobby_img_ra-men {
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+}
+
+#hobby ul li {
+    width: 450px;
+    text-align: center;
+}
+
+#hobby ul li  p {
+    width: 450px;
+}
