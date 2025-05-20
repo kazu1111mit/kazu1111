@@ -153,6 +153,20 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.dq-box4 {
+  background-color: hsl(0, 0%, 12%);
+  width: 450px; /*親要素の半分の幅から左右のマージンを引いた値 */
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0;
+  font-family: 'DotGothic16', sans-serif;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .dq-box h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
@@ -160,8 +174,8 @@ a:hover {
   text-shadow: 1px 1px 2px #000;
 }
 
-.dq-boxh4 {
-  width: auto;
+.dq-box h4 {
+  width: 700px;
   font-size: 1.5rem;
   margin-bottom: 10px;
   text-align: center;
@@ -316,4 +330,46 @@ img  {
 
 #hobby ul li  p {
     width: 450px;
+}
+
+#game_img {
+  width: 200px;
+  height: 200px;
+  margin-left: 0px;
+}
+
+#status {
+  width: 300px;
+  margin-left: 0px;
+}
+
+#scroll-to-top {
+  position: fixed; /* スクロールしても固定表示 */
+  bottom: 20px;    /* 下からの距離 */
+  right: 20px;     /* 右からの距離 */
+  background-color: rgba(0, 0, 0, 0.5); /* 背景色（半透明） */
+  color: #fff;                       /* 文字色 */
+  width: 40px;                        /* ボタンの幅 */
+  height: 40px;                       /* ボタンの高さ */
+  border-radius: 50%;                 /* 丸くする */
+  text-align: center;                /* 文字を中央揃え */
+  line-height: 40px;                /* 行の高さをボタンの高さと同じにして垂直中央揃え */
+  font-size: 1.5rem;                  /* 文字サイズ */
+  text-decoration: none;             /* 下線を消す */
+  z-index: 1000;                      /* 他の要素より前面に表示 */
+  border: 2px dotted #fff;
+  background-clip: padding-box; /* ボーダーが内側にかからないように */
+}
+
+
+#scroll-to-top:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* ホバー時の背景色 */
+}
+
+#scroll-to-top a {
+  text-decoration: none; /* 通常時の下線を消す */
+}
+
+#scroll-to-top a:hover {
+  text-decoration: none; /* ホバー時の下線も消す */
 }
